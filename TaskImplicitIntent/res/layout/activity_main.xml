@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sourcebits.taskimplicitintent.MainActivity" >
+
+    <EditText 
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:id="@+id/Edit"    
+      />
+    <Button   
+   		android:id="@+id/shareText"
+   		android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+   		android:text="Share Text"
+  		android:onClick ="onClick"
+    />
+ 
+  	<Button
+ 
+   		android:id="@+id/shareVideo"  
+   		android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+   		android:text="Share Video"
+   		android:onClick="onClick" 
+    />
+  
+  	<Button
+ 
+   		android:id="@+id/shareURL"  
+   		android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+   		android:text="Share URL"
+   		android:onClick="onClick"
+    
+  	/>
+  	<Button
+ 
+   		android:id="@+id/shareApp"  
+   		android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+   		android:text="Share App"
+   		android:onClick="onClick"
+    
+  	/>
+
+</LinearLayout>
